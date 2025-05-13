@@ -1,0 +1,79 @@
+*{
+    font-family: 'Times New Roman';
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+#container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+#content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#About_section{
+    margin-top: 50px;
+
+}
+#about{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+h1{
+    font-size: 70px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+#footer{
+        text-align: end;
+        margin: 20px;
+       
+    }
+a{     text-decoration: none;
+    }
+.doc{
+    padding-left: 20px;
+}
+
+.image_container,img
+{
+  width: 300px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+header{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+ h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+ h4 {
+    font-size: 30px;
+    text-align: end;
+  }
+  #biographies{
+    margin-top: 50px;
+  }
+  h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  ul{
+    margin-left: 30px;
+  }
+  li{
+    margin-bottom: 20px;
+  }
